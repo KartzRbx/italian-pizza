@@ -1,0 +1,45 @@
+{
+  "name": "italian-pizza",
+  "displayName": "Italian Pizza",
+  "description": "A dark VS Code theme with tomato-red declarations, basil-green strings, golden built-ins and purple brackets. Inspired by classic Studio syntax colors.",
+  "version": "1.0.0",
+  "publisher": "kartzrbx",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "pizza",
+    "luau",
+    "lua",
+    "clpp",
+    "italian"
+  ],
+  "license": "MIT",
+  "icon": "images/pizza.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KartzRbx/italian-pizza.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KartzRbx/italian-pizza/issues"
+  },
+  "homepage": "https://github.com/KartzRbx/italian-pizza#readme",
+  "galleryBanner": {
+    "color": "#1A1C1F",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Italian Pizza",
+        "uiTheme": "vs-dark",
+        "path": "./themes/italian-pizza-color-theme.json"
+      }
+    ]
+  }
+}

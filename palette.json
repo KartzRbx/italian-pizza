@@ -1,0 +1,19 @@
+{
+  "background": "#1A1C1F",
+  "panel": "#202227",
+  "chrome": "#191A1F",
+  "line": "#272930",
+  "text": "#CACACA",
+  "operator": "#D4D4D4",
+  "comment": "#878787",
+  "declaration": "#CC2421",
+  "control": "#5A8D7E",
+  "string": "#77C821",
+  "builtin": "#FFAA00",
+  "boolean": "#FFC001",
+  "number": "#79B0CA",
+  "type": "#3D7AB0",
+  "bracket": "#C468E3",
+  "selection": "#0027B8",
+  "border": "#353741"
+}
