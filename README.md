@@ -8,12 +8,12 @@ built-ins, teal control flow and matching purple parentheses, brackets and brace
 
 ## Install
 
-Download `italian-pizza-1.0.1.vsix` from [Releases](https://github.com/KartzRbx/italian-pizza/releases/latest).
+Download `italian-pizza-1.0.2.vsix` from [Releases](https://github.com/KartzRbx/italian-pizza/releases/latest).
 In VS Code, run **Extensions: Install from VSIX…**, select the file, then choose
 **Preferences: Color Theme → Italian Pizza**. Or run:
 
 ```sh
-code --install-extension italian-pizza-1.0.1.vsix
+code --install-extension italian-pizza-1.0.2.vsix
 ```
 
 This is a color theme: it has no extension runtime, telemetry, network requests,
@@ -34,14 +34,16 @@ themes. It is distributed publicly on GitHub; a Marketplace listing is separate.
 | Comments | `#878787` |
 | Native functions | `#FFAA00` |
 | Boolean values | `#FFC001` |
-| Numbers | `#79B0CA` |
+| Numbers | `#D4B98C` |
 | Types (muted purple-gray) | `#55557F` |
 | Parentheses, brackets and braces | `#C468E3` |
 
 The Luau-specific scope for the `function` header is red; body control keywords
 remain teal. All six VS Code bracket-pair colors use the same reference purple,
 so enabling bracket-pair colorization does not introduce rainbow colors.
-Semantic colors are supplied for language servers, including CL++.
+Semantic colors are supplied for language servers, including explicit CL++
+primitive/default-library types and keywords. Blue UI accents are replaced with
+warm tomato and muted brown accents.
 Token classification depends on the language extension. Fonts, text smoothing,
 transparency extensions and user color overrides can affect the visible result.
 The theme preserves your font, layout, icons and editor preferences.

@@ -40,6 +40,16 @@ class ThemeTests(unittest.TestCase):
         rule = next(rule for rule in THEME['tokenColors'] if rule['name'] == 'Types')
         self.assertEqual(rule['settings']['foreground'], PALETTE['type'])
 
+    def test_clpp_keywords_and_native_types_do_not_use_blue_fallbacks(self):
+        colors = THEME['semanticTokenColors']
+        self.assertEqual(colors['keyword:clpp'], '#5A8D7E')
+        self.assertEqual(colors['type.defaultLibrary:clpp'], '#55557F')
+        self.assertEqual(colors['type.defaultLibrary'], '#55557F')
+        forbidden = {'#79B0CA', '#3D7AB0', '#335FFF', '#4270FF', '#0027B8', '#2A4193'}
+        used = list(THEME['colors'].values()) + list(colors.values())
+        used += [rule['settings']['foreground'] for rule in THEME['tokenColors']]
+        self.assertFalse(forbidden.intersection(color.upper() for color in used))
+
     def test_native_and_user_methods_are_distinct(self):
         self.assertEqual(THEME['semanticTokenColors']['method'], PALETTE['control'])
         self.assertEqual(THEME['semanticTokenColors']['method.defaultLibrary'], PALETTE['builtin'])

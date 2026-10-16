@@ -2,7 +2,7 @@
   "name": "italian-pizza",
   "displayName": "Italian Pizza",
   "description": "A dark VS Code theme with tomato-red declarations, basil-green strings, golden built-ins and purple brackets. Inspired by classic Studio syntax colors.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "kartzrbx",
   "engines": {
     "vscode": "^1.85.0"
@@ -38,7 +38,8 @@
       {
         "label": "Italian Pizza",
         "uiTheme": "vs-dark",
-        "path": "./themes/italian-pizza-color-theme.json"
+        "path": "./themes/italian-pizza-color-theme.json",
+        "id": "italian-pizza"
       }
     ]
   }

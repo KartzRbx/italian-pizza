@@ -11,9 +11,9 @@
   "string": "#77C821",
   "builtin": "#FFAA00",
   "boolean": "#FFC001",
-  "number": "#79B0CA",
+  "number": "#D4B98C",
   "type": "#55557F",
   "bracket": "#C468E3",
-  "selection": "#0027B8",
+  "selection": "#55433A",
   "border": "#353741"
 }
