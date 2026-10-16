@@ -8,12 +8,12 @@ built-ins, teal control flow and matching purple parentheses, brackets and brace
 
 ## Install
 
-Download `italian-pizza-1.0.0.vsix` from [Releases](https://github.com/KartzRbx/italian-pizza/releases/latest).
+Download `italian-pizza-1.0.1.vsix` from [Releases](https://github.com/KartzRbx/italian-pizza/releases/latest).
 In VS Code, run **Extensions: Install from VSIX…**, select the file, then choose
 **Preferences: Color Theme → Italian Pizza**. Or run:
 
 ```sh
-code --install-extension italian-pizza-1.0.0.vsix
+code --install-extension italian-pizza-1.0.1.vsix
 ```
 
 This is a color theme: it has no extension runtime, telemetry, network requests,
@@ -35,7 +35,7 @@ themes. It is distributed publicly on GitHub; a Marketplace listing is separate.
 | Native functions | `#FFAA00` |
 | Boolean values | `#FFC001` |
 | Numbers | `#79B0CA` |
-| Types | `#3D7AB0` |
+| Types (muted purple-gray) | `#55557F` |
 | Parentheses, brackets and braces | `#C468E3` |
 
 The Luau-specific scope for the `function` header is red; body control keywords

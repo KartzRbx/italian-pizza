@@ -303,7 +303,7 @@
         "keyword.type"
       ],
       "settings": {
-        "foreground": "#3D7AB0",
+        "foreground": "#55557F",
         "fontStyle": ""
       }
     },
@@ -363,7 +363,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#3D7AB0",
+        "foreground": "#55557F",
         "fontStyle": ""
       }
     },
@@ -436,12 +436,12 @@
     "function": "#5A8D7E",
     "method": "#5A8D7E",
     "namespace": "#CACACA",
-    "class": "#3D7AB0",
-    "type": "#3D7AB0",
-    "interface": "#3D7AB0",
-    "struct": "#3D7AB0",
-    "enum": "#3D7AB0",
-    "typeParameter": "#79B0CA",
+    "class": "#55557F",
+    "type": "#55557F",
+    "interface": "#55557F",
+    "struct": "#55557F",
+    "enum": "#55557F",
+    "typeParameter": "#55557F",
     "enumMember": "#FFC001",
     "number": "#79B0CA",
     "string": "#77C821",

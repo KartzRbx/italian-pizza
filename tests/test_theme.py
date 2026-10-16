@@ -33,6 +33,13 @@ class ThemeTests(unittest.TestCase):
         for level in range(1, 7):
             self.assertEqual(THEME['colors'][f'editorBracketHighlight.foreground{level}'], PALETTE['bracket'])
 
+    def test_types_use_reference_purple_gray_including_semantic_tokens(self):
+        self.assertEqual(PALETTE['type'], '#55557F')
+        for name in ['type', 'class', 'struct', 'interface', 'enum', 'typeParameter']:
+            self.assertEqual(THEME['semanticTokenColors'][name], PALETTE['type'])
+        rule = next(rule for rule in THEME['tokenColors'] if rule['name'] == 'Types')
+        self.assertEqual(rule['settings']['foreground'], PALETTE['type'])
+
     def test_native_and_user_methods_are_distinct(self):
         self.assertEqual(THEME['semanticTokenColors']['method'], PALETTE['control'])
         self.assertEqual(THEME['semanticTokenColors']['method.defaultLibrary'], PALETTE['builtin'])
